@@ -7,7 +7,7 @@ import { ApolloProvider } from "@apollo/react-hooks";
 import { setContext } from "apollo-link-context";
 
 const httpLink = createHttpLink({
-  uri: "https://mighty-earth-03755.herokuapp.com",
+  uri: "https://mighty-earth-03755.herokuapp.com/",
 });
 
 const authLink = setContext(() => {
